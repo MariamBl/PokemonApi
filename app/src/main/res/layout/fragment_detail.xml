@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/paper_color"
+
     tools:context=".fragment.DetailFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:descendantFocusability="blocksDescendants" >
 
         <ProgressBar
@@ -24,19 +26,22 @@
             android:layout_width="match_parent"
             android:layout_height="260dp"
             android:layout_marginTop="0dp"
-            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Material3.NavigationView.Item" >
+
+            app:shapeAppearanceOverlay="@style/roundimageview" >
 
             <ImageButton
                 android:id="@+id/arrow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_arrow"
+
                 android:layout_marginTop="15dp"
                 android:layout_marginStart="15dp"
                 android:background="@android:color/transparent"
                 tools:ignore="ContentDescription" />
 
             <ImageView
+
                 android:id="@+id/pokimg"
                 android:layout_width="220dp"
                 android:layout_height="220dp"
