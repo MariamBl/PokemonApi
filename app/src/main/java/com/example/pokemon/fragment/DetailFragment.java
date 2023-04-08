@@ -35,7 +35,7 @@ public class DetailFragment extends Fragment {
     }
 
     public DetailFragment() {
-        // Required empty public constructor
+
     }
 
 

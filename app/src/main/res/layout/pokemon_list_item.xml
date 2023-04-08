@@ -19,12 +19,13 @@
 
             android:padding="10dp">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/pokemonImg"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/ic_launcher_background" />
+                android:background="@color/paper_color"
+                app:shapeAppearanceOverlay="@style/roundimageview"/>
 
             <TextView
                 android:id="@+id/pok_name"

@@ -2,6 +2,7 @@ package com.example.pokemon.comm;
 
 import android.graphics.Color;
 
+import com.example.pokemon.R;
 import com.example.pokemon.models.Pokemon;
 
 import java.util.ArrayList;
@@ -27,66 +28,66 @@ public class Comm {
         {
 
             case "Normal":
-                return Color.parseColor("#A4A27A");
+                return Color.parseColor(String.valueOf(R.color.ice));
 
 
             case "Dragon":
-                return Color.parseColor("#743BFB");
+                return Color.parseColor(String.valueOf(R.color.dragon));
 
 
 
             case "Psychic":
-                return Color.parseColor("#F15B85");
+                return Color.parseColor(String.valueOf(R.color.psychic));
 
 
             case "Electric":
-                return Color.parseColor("#E9CA3C");
+                return Color.parseColor(String.valueOf(R.color.electric));
 
 
             case "Ground":
-                return Color.parseColor("#D9BF6C");
+                return Color.parseColor(String.valueOf(R.color.ground));
 
 
             case "Grass":
-                return Color.parseColor("#81C85B");
+                return Color.parseColor(String.valueOf(R.color.grass));
 
             case "Poison":
-                return Color.parseColor("#A441A3");
+                return Color.parseColor(String.valueOf(R.color.poison));
 
             case "Steel":
-                return Color.parseColor("#BAB7D2");
+                return Color.parseColor(String.valueOf(R.color.steel));
 
 
             case "Fairy":
-                return Color.parseColor("#DDA2DF");
+                return Color.parseColor(String.valueOf(R.color.fairy));
 
 
             case "Fire":
-                return Color.parseColor("#F48130");
+                return Color.parseColor(String.valueOf(R.color.fire));
 
 
             case "Fight":
-                return Color.parseColor("#BE3027");
+                return Color.parseColor(String.valueOf(R.color.fighting));
 
 
             case "Bug":
-                return Color.parseColor("#A8B822");
+                return Color.parseColor(String.valueOf(R.color.bug));
 
 
             case "Ghost":
-                return Color.parseColor("#705693");
+                return Color.parseColor(String.valueOf(R.color.ghost));
 
 
             case "Dark":
-                return Color.parseColor("#745945");
+                return Color.parseColor(String.valueOf(R.color.dark));
 
 
             case "Ice":
-                return Color.parseColor("#9BD8D8");
+                return Color.parseColor(String.valueOf(R.color.ice));
 
 
             case "Water":
-                return Color.parseColor("#658FF1");
+                return Color.parseColor(String.valueOf(R.color.water));
             default:
                 return Color.parseColor("#658FA0");
         }
